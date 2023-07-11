@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/rolagem.css" />
+
+    <title>Portfólio</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/img/foto-perfil.jpg" alt="foto de perfil" />
+        <h1 class="nome">Luiz Vinícius Irineu Fonseca</h1>
+        <h2 class="cargo">Desenvolvedor Python</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/img/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/img/coracao.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>
+                Olá! meu nome é Vinícius
+              
+              </p>
+              <br />
+
+              <p>
+                  Olá! Sou um estudante de Tecnologia e atualmente estou cursando Engenharia da Computação na Uninassau RN. Desde que fiz um curso técnico de informática, me interessei pela área de desenvolvimento e defini como meta trabalhar nesse campo.
+                  Em maio de 2023, iniciei meus estudos com a linguagem de programação Python, pois desejo atuar como Desenvolvedor. Python é uma linguagem popular e versátil, especialmente no desenvolvimento de aplicações.
+                  Meu objetivo é me especializar como Desenvolvedor Backend, pois tenho interesse em trabalhar nos bastidores das aplicações, lidando com bancos de dados, APIs e lógica de negócios. Pretendo dominar frameworks populares como Django para facilitar o desenvolvimento de aplicativos web.
+                  Estou comprometido em me tornar um Desenvolvedor qualificado, e sei que isso envolverá dedicação contínua, aprendizado constante e aprimoramento de minhas habilidades técnicas. Estou ansioso para explorar as possibilidades e contribuir para o mundo do desenvolvimento.
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas redes</h3>
+
+            <ul class="redes-sociais">
+              <li>
+                <a
+                  href="./src/img/curriculo_vinicius.pdf"
+                  target="_blank"
+                  class="curriculo"
+                  >Currículo</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/luiz-vin%C3%ADcius-irineu-fonseca-0101a8252/"
+                  class="linkedin"
+                  target="_blank"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/LV1n1"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
